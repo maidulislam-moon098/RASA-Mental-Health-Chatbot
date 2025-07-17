@@ -1,3 +1,3 @@
-rasa>=3.0.0
+rasa==3.6.21
 uvicorn
 aiofiles
