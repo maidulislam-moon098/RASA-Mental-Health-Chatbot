@@ -1,3 +1,4 @@
 rasa==3.6.21
 uvicorn
 aiofiles
+tensorflow==2.12.0
