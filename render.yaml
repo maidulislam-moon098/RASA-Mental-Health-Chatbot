@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rasa-mental-health-app
+    env: python
+    buildCommand: "pip install -r requirements.txt && rasa train"
+    startCommand: "rasa run --enable-api --cors '*' --port $PORT"
+    envVars:
+      - key: PORT
+        value: 5005
